@@ -1,0 +1,18 @@
+       3.CIRCUMFERENCE OF A CIRCLE
+
+#include <stdio.h>
+
+void main() {
+    float pi,r,c;
+    printf("enter pi value : ");
+    scanf("%f",&pi);
+     printf("enter r value : ");
+    scanf("%f",&r);
+    c=2*(pi*r);
+    printf("circumference of circle is %f",c);
+    
+}
+OUTPUT:
+enter pi value : 3.14
+enter r value : 5
+circumference of circle is 31.400002
